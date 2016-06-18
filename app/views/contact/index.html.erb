@@ -1,0 +1,25 @@
+<div class="container eighty">
+  <header>
+    <%= image_tag "header.png", class: "banner" %>
+    <h3 class="title sixty">“I believe in goodness, mercy and charity. I believe in casting bread upon the waters.” -Leonard Nimoy</h3>
+    <div class="black">
+      <nav>
+        <%= link_to "Home", root_path, class: "big" %>
+        <%= link_to "Golf Tournament", golf_index_path, class: "big" %>
+        <%= link_to "Dinner and Movie Preview", movie_index_path, class: "big" %>
+        <%= link_to "About", about_index_path, class: "big" %>
+        <%= link_to "Contact Us", contact_index_path, class: "big active" %>
+      </nav>
+    </div>
+  </header>
+  <div class="section">
+    <h1 class="title eighty">Contact</h1>
+    <p>Do you have questions about the events? Would you like to find out other ways that you can get involved? Do you just want to practice your Klingon?</p>
+    <p>Great! We would love to hear from you.  Please go ahead and send us a message at INSERT EMAIL HERE and we'll get back to you just as soon as we can.</p>
+    <p>Thank you for your interest! Live long and prosper.</p>
+  </div>
+  <footer>
+    <%= link_to "Made by nick-brown-dev.com", "http://nick-brown-dev.com", target: "blank" %>
+    <p>Copyright 2016</p>
+  </footer>
+</div>

@@ -1,0 +1,26 @@
+<div class="container eighty">
+  <header>
+    <%= image_tag "golf_header.png", class: "banner" %>
+    <h3 class="title sixty">“I believe in goodness, mercy and charity. I believe in casting bread upon the waters.” -Leonard Nimoy</h3>
+    <div class="black">
+      <nav>
+        <%= link_to "Home", root_path, class: "big" %>
+        <%= link_to "Golf Tournament", golf_index_path, class: "big active" %>
+        <%= link_to "Dinner and Movie Preview", movie_index_path, class: "big" %>
+        <%= link_to "About", about_index_path, class: "big" %>
+        <%= link_to "Contact Us", contact_index_path, class: "big" %>
+      </nav>
+    </div>
+  </header>
+  <div class="section">
+    <h1 class="title eighty">Star Fleet Celebrity Charity Golf Tournament</h1>
+    <p>Come join us on Thursday, July 21 for our 1st Annual Charity Golf Tournament! We will be teeing off from Ruffled Feathers Golf Course in Lemont.</p>
+    <p>Get a chance to meet your favorite Star Trek actors! Jonathan Frakes, who portrayed Commander Riker, and Gates McFadden who portrayed Dr. Beverly Crusher will be on hand to pose for photos and sign autographs!</p>
+    <p>Entry into the tournament include green fees, carts, and other promotional items (valued at: $1000.00)</p>
+    <p>Schedule of events:<br>7am: Continental breakfast<br>7:30am: Tee-off</p>
+  </div>
+  <footer>
+    <%= link_to "Made by nick-brown-dev.com", "http://nick-brown-dev.com", target: "blank" %>
+    <p>Copyright 2016</p>
+  </footer>
+</div>

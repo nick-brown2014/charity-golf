@@ -1,0 +1,25 @@
+<div class="container eighty">
+  <header>
+    <%= image_tag "movie_header.png", class: "banner" %>
+    <h3 class="title sixty">“I believe in goodness, mercy and charity. I believe in casting bread upon the waters.” -Leonard Nimoy</h3>
+    <div class="black">
+      <nav>
+        <%= link_to "Home", root_path, class: "big" %>
+        <%= link_to "Golf Tournament", golf_index_path, class: "big" %>
+        <%= link_to "Dinner and Movie Preview", movie_index_path, class: "big active" %>
+        <%= link_to "About", about_index_path, class: "big" %>
+        <%= link_to "Contact Us", contact_index_path, class: "big" %>
+      </nav>
+    </div>
+  </header>
+  <div class="section">
+    <h1 class="title eighty">Star Trek Beyond Charity Dinner and Movie Preview</h1>
+    <p>Come join us on Thursday, July 21 for an unforgettable event! We will be hosting a dinner and special sneak preview of the new Star Trek film, Star Trek Beyond!</p>
+    <p>We will also have former Start Trek actors Jonathan Frakes, who portrayed Commander Riker, and Gates McFadden who portrayed Dr. Beverly Crusher on hand to pose for photos and sign autographs!</p>
+    <p>Doors open at 7pm, screening begins at 8pm.</p>
+  </div>
+  <footer>
+    <%= link_to "Made by nick-brown-dev.com", "http://nick-brown-dev.com", target: "blank" %>
+    <p>Copyright 2016</p>
+  </footer>
+</div>

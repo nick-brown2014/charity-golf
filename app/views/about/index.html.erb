@@ -1,0 +1,27 @@
+<div class="container eighty">
+  <header>
+    <%= image_tag "header.png", class: "banner" %>
+    <h3 class="title sixty">“I believe in goodness, mercy and charity. I believe in casting bread upon the waters.” -Leonard Nimoy</h3>
+    <div class="black">
+      <nav>
+        <%= link_to "Home", root_path, class: "big" %>
+        <%= link_to "Golf Tournament", golf_index_path, class: "big" %>
+        <%= link_to "Dinner and Movie Preview", movie_index_path, class: "big" %>
+        <%= link_to "About", about_index_path, class: "big active" %>
+        <%= link_to "Contact Us", contact_index_path, class: "big" %>
+      </nav>
+    </div>
+  </header>
+  <div class="section">
+    <h1 class="title eighty">About</h1>
+    <h3 class="charity"><%= link_to "Shakti Warriors", target: "blank"%></h3>
+    <p>The Shakti Warriors are an after school program dedicated to life-long learning.  By encouraging kids to be healthy, thoughtful and kind to others in their community, they hope to show that anyone can be a "super hero".</p>
+    <h3 class="charity"><%= link_to "American Foundation for the Blind", "http://afb.org", target: "blank" %></h3>
+    <p>For nearly 100 years the American Foundation for the Blind has been working to enable access, promote and deliver technological solutions, collaborate with the vision loss community, and provide resources that inform and enlighten.</p>
+    <p>By removing technological and systemic barriers that prevent people with vision loss from fully participating in all aspects of society, they are leveling the playing field and creating an inclusive society that values all of our abilities.</p>
+  </div>
+  <footer>
+    <%= link_to "Made by nick-brown-dev.com", "http://nick-brown-dev.com", target: "blank" %>
+    <p>Copyright 2016</p>
+  </footer>
+</div>

@@ -124,6 +124,21 @@ a:hover {
   margin-top: 20px;
 }
 
+.widget {
+  width: 45%;
+  display: inline-block;
+  margin-left: 3%;
+  margin-top: 20px;
+  min-height: 300px;
+}
+
+.center_widget {
+  width: 45%;
+  margin: auto;
+  margin-top: 20px;
+  min-height: 300px;
+}
+
 footer {
   height: 50px;
   background-color: black;

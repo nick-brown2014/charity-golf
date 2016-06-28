@@ -5,18 +5,23 @@
     <div class="black">
       <nav>
         <%= link_to "Home", root_path, class: "big active" %>
+        <%= link_to "Home", root_path, class: "small" %>
         <%= link_to "Golf Tournament", golf_index_path, class: "big" %>
+        <%= link_to "Golf", golf_index_path, class: "small" %>
         <%= link_to "Dinner and Movie Preview", movie_index_path, class: "big" %>
+        <%= link_to "Movie", movie_index_path, class: "small" %>
         <%= link_to "About", about_index_path, class: "big" %>
+        <%= link_to "About", about_index_path, class: "small" %>
         <%= link_to "Contact Us", contact_index_path, class: "big" %>
+        <%= link_to "Contact", contact_index_path, class: "small" %>
       </nav>
     </div>
   </header>
   <div class="section">
     <h1 class="title eighty">Meet the Stars. Play Golf. Watch Star Trek. Give Back.</h1>
     <p>Join us on July 21st for a once in a lifetime chance to make unforgettable memories and a difference in your community.</p>
-    <p>The day begins at 7:00 A.M. at the Ruffled Feathers Golf Course where you will tee-off alongside Jonathan Frakes and Gates McFadden (Commander Riker and Dr. Beverly Crusher).  Entry into the tournament includes green fees, and a cart as well as other promotional items and prizes (valued at over $1,000!)</p>
-    <p>Then at 7:00 P.M. join us once again at the Hollywood Palms movie theater for dinner and a special early screening of the new Star Trek Film, Star Trek Beyond! Jonathan Frakes and Gates McFadden will be on the bridge once again to pose for photos and sign autographs.</p>
+    <p>The day begins at 7:00 A.M. at the Ruffled Feathers Golf Course where you will tee-off alongside Jonathan Frakes and Gates McFadden (Commander Riker and Dr. Beverly Crusher)*.  Entry into the tournament includes green fees, and a cart as well as other promotional items and prizes (valued at over $1,000!)</p>
+    <p>Then at 6:00 P.M. join us once again at the Hollywood Palms movie theater for dinner and a special early screening of the new Star Trek Film, Star Trek Beyond! Jonathan Frakes and Gates McFadden will be on the bridge once again to pose for photos and sign autographs.</p>
     <%= image_tag "stars.png", class: "stars" %>
     <p> Don't be like the Ferengi! Run, drive, or beam yourself over to the Star Trek event of a lifetime! Tickets are limited to 125 total golfers and 450 movie-goers, so set your phasers to fun and get your tickets now before you miss out on a truly unique fan experience.</p>
     <p>Proceeds from this event will support the <%= link_to "Shakti Warriors", "http://shaktiwarriors.com", target: "blank" %>, an after-school program dedicated to life-long learning, as well as the Indianapolis, Indiana chapter of the <%= link_to "American Federation of the Blind", "http://afb.org", target: "blank" %>. Click on the links above or visit our <%= link_to "About", about_index_path, target: "blank" %> page to learn more about these amazing charities.</p>
@@ -26,6 +31,7 @@
     <div class="widget">
       <script type="text/javascript" src="https://www.universe.com/embed.js"/></script><iframe id="unii-embed-page" src="https://www.universe.com/embed/listings/57605aa78d1c240031b412a3" frameborder="0"></iframe>
     </div>
+    <p class="subtext">* All Guests are subject to cancellation for work or illness and that does not hold the event conditions. Guests may attend during one or both daily events, or as conditions may allow. In case of Natural causes, or world events, the promoters may substitute or reschedule as required. No refunds will be allowed.</p>
   </div>
   <footer>
     <%= link_to "Made by nick-brown-dev.com", "http://nick-brown-dev.com", target: "blank" %>
